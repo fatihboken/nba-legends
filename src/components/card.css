@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 163, 110);
+}
+
+.container {
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 80%;
+  margin: 1rem auto;
+  justify-content: center;
+  padding: 10px;
+  background-image: url(../img/nba-logo-bg.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-size: cover;
+  box-shadow: 10px 10px 15px;
+}
+
+.player {
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+}
+
+.name {
+  background-color: white;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2rem;
+  background-color: white;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+input {
+  width: 400px;
+  /* height: 20px; */
+  padding: 5px;
+  border-radius: 5px;
+}
+.container img {
+  width: 100%;
+  height: 350px;
+  /* border-radius: 10px; */
+  /* border: 2px solid red; */
+  transition: all 0.7s;
+  transform: translate(0);
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.title {
+  display: flex;
+  gap: 1.5rem;
+}
